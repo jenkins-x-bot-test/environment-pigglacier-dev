@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:pigglacier/adminUser:password
+  username: admin
+dashboardAuthID: vault:pigglacier:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:pigglacier:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:pigglacier/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:pigglacier/prow:hmacToken
